@@ -1,0 +1,3 @@
+== README
+
+PlayerFindr, un proyecto dedicado a solventar todos esos problemas de la gente para encontrar compañeros con los que jugar a sus juegos favorítos

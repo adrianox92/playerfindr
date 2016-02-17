@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'neroregular';
+    src: url('fonts/nero-webfont.eot');
+    src: url('fonts/nero-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/nero-webfont.woff2') format('woff2'),
+    url('fonts/nero-webfont.woff') format('woff'),
+    url('fonts/nero-webfont.ttf') format('truetype'),
+    url('fonts/nero-webfont.svg#neroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ /* Página Under construction */
+.under-construction{
+    height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,0fb4e7+100 */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top, #000000 0%, #0fb4e7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #000000 0%,#0fb4e7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #000000 0%,#0fb4e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+
+}
+.content-text{
+    height: 100%;
+    line-height: 90px;
+}
+.content-text h2{
+    padding-top: 12%;
+    text-align: center;
+    color: #ffffff;
+    font-family: neroregular;
+    font-size: 100px;
+}
+.content-text p{color:#fff; font-size: 20px;}
+
+
+/* Cabecera */
+.playerfindr{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,0fb4e7+100 */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top, #000000 0%, #0fb4e7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #000000 0%,#0fb4e7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #000000 0%,#0fb4e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+    color:#ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin:0;
+    font-family: neroregular;
+    font-size: 60px;
+}
+.playerfindr.mini{font-size: 36px;background: none;color: #ffffff!important;}

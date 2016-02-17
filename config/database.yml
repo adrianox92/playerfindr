@@ -1,0 +1,21 @@
+
+#
+# On Heroku and other platform providers, you may have a full connection URL
+# available as an environment variable. For example:
+#
+#   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+#
+# You can use this database configuration with:
+#
+#   production:
+#     url: <%= ENV['DATABASE_URL'] %>
+#
+development:
+  host: localhost
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: peluqueria
+  pool: 5
+  username: peluqueria
+  password: eseadri92
